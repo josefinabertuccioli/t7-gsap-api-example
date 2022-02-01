@@ -17,7 +17,7 @@ function animateTheLivingHellOutOfIt() {
       0.3
     )
     .staggerTo(".tree path, .house path", 10, {
-      y: () => Math.random() * 1000 - 500,
+      y: () => Math.random() * 1000 - 100,
       x: () => Math.random() * 1000 - 500,
     });
 
